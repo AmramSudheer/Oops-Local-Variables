@@ -1,0 +1,9 @@
+class Test:
+    @staticmethod
+    def average(list):
+        result = sum(list)/len(list)
+        print("the average is ",result)
+
+
+list = [10,20,30,40]
+Test.average(list)
