@@ -1,0 +1,6 @@
+class Ss:
+    def wish(name):
+        for i in range(10):
+            print("good afternoon",name)
+name = ("sudheer")
+Ss.wish(name)
